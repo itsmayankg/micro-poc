@@ -29,7 +29,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
-                .loginPage("/tracker-service/tracker")
+                .loginPage("/login-service/login")
                 .permitAll()
                 .and()
                 .logout()
